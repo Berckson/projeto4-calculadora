@@ -39,6 +39,10 @@ function clear () {
 
     calc.innerText = ''
 
+    const result = document.getElementById('result')
+
+    result.innerText = ''
+
 }
 
 document.getElementById('themeToggle').addEventListener('click', themeSwicht)
